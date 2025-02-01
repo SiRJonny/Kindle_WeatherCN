@@ -307,7 +307,7 @@
         // Config parameters.
         var api_params, api_appId, api_lang, api_units, api_locParams, rotation, night_mode, refreshTime, utcOffset;
 
-        utcOffset = getUrlParameter("utcOffset") ? getUrlParameter("utcOffset") : "+08:00";
+        utcOffset = getUrlParameter("utcOffset") ? getUrlParameter("utcOffset") : "+01:00";
 
         // For night mode.
         var _sunsetHour = 18;
@@ -320,7 +320,8 @@
         }
 
         function rotate() {
-            var rot = getUrlParameter("rotation") ? getUrlParameter("rotation") : rotation;
+            //var rot = getUrlParameter("rotation") ? getUrlParameter("rotation") : rotation;
+	    var rot = "ll";
 
             var v = viewport();
             var isPortrait = v.height > v.width;

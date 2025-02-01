@@ -94,7 +94,7 @@
 
         function refreshTT() {
             lastUpdate.innerHTML = momentWithCorrectUtcOffset(new Date()).format("HH:mm");
-	    temp.innerHTML = momentWithCorrectUtcOffset(new Date()).format("MMMM DD");
+	    temp.innerHTML = momentWithCorrectUtcOffset(new Date()).format("MMM DD");
             window.setTimeout("refreshTT()", 1000 * 30);
         }
 

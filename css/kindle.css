@@ -68,13 +68,13 @@ html.night {
 }
 
 #lastUpdate {
-    position: relative;
+    position: absolute;
     top: 20%;
     left: 0%;
     font-size: 100px;
     font-size: 80rem;
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     font-family: electronicFont;
 }
 

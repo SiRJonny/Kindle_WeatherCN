@@ -64,13 +64,13 @@ html.night {
 .tempWrapper {
     position: absolute;
     right: 3%;
-    top: 8%;
+    bottom: 5%;
 }
 
 #lastUpdate {
     position: absolute;
     top: 20%;
-    left: 0%;
+    right: 10%;
     font-size: 100px;
     font-size: 80rem;
     font-weight: bolder;
@@ -158,9 +158,9 @@ html.night {
 
 .colTemp {
     position: relative;
-    top: 8%;
-    font-size: 50px;
-    font-size: 8rem;
+    bottom: 8%;
+    font-size: 20px;
+    font-size: 5rem;
     font-weight:bolder;
 }
 
@@ -193,8 +193,8 @@ html.night {
 }
 
 .landscape #temp {
-    font-size: 141.7px;
-    font-size: 28rem;
+    font-size: 20px;
+    font-size: 5rem;
     font-weight: bolder;
     text-align: center;
 }
@@ -215,8 +215,8 @@ html.night {
 }
 
 .landscape #date {
-    font-size: 20px;
-    font-size: 7rem;
+    font-size: 10px;
+    font-size: 3rem;
 }
 
 .landscape #sun {

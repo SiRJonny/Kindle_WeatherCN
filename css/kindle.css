@@ -68,7 +68,7 @@ html.night {
 }
 
 #lastUpdate {
-    position: relative;
+    position: absolute;
     top: 20%;
     left: 0%;
     font-size: 100px;
@@ -200,8 +200,8 @@ html.night {
 }
 
 .landscape #lastUpdate {
-    font-size: 141.7px;
-    font-size: 24rem;
+    font-size: 300px;
+    font-size: 50rem;
 }
 
 .landscape #description {

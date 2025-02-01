@@ -1,3 +1,8 @@
+@font-face {
+    font-family: squareOne;
+    src: url(./font/Square_One.ttf)
+}
+
 html,
 body {
     height: 100%;

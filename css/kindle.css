@@ -43,8 +43,8 @@ html.night {
 }
 
 #city {
-    font-size: 50px;
-    font-size: 7rem;
+    font-size: 0px;
+    font-size: 0rem;
     position: absolute;
     top: 1.5%;
     right: 3%;

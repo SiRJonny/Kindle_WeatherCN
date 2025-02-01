@@ -23,5 +23,5 @@ var night_mode = "off";
 // You can set custom GMT offset, in format "+08:00".
 // You may need to set it again after winter/summer time change.
 // Null is default
-var utcOffset = "+01:00"
+var utcOffset = "+01:00";
 

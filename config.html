@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh_CN">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -30,18 +30,18 @@
 </head>
 
 <body>
-    <h1>Kindle WeatherCN 参数设置</h1>
+    <h1>Kindle Clock</h1>
     <form action="index.html">
         <div>
-            <label>输入城市: <br /><input type="text" name="city" id="city" value="" /></label>
+            <label>city: <br /><input type="text" name="city" id="city" value="" /></label>
         </div>
-        <div>或者 输入GPS坐标:</div>
+        <div>GPS:</div>
         <div>
             <label>Lat (e.g. 50.123): <input type="text" name="lat" id="lat" value="47.5" /></label>
             <label>Lon (e.g. 14.4): <input type="text" name="lon" id="lon" value="19" /></label>
         </div>
         <div>
-            <label>设置UTC时区<br />
+            <label>Timezone utcOffset<br />
                 <select name="utcOffset" id="utcOffset">
                     <option value="+01:00">+1 h</option>
                     <option value="-01:00">-1 h</option>
@@ -71,15 +71,14 @@
             </label>
         </div>
         <div>
-            <label>设置显示语言: <br />
-                <select name="lang" id="lang">
-                    <option value="zh_cn">中文</option>
+            <label>language: <br />
+                <select name="lang" id="lang" value="en">
                     <option value="en">English</option>
                 </select>
             </label>
         </div>
         <div>
-            <label>设置屏幕方向: <br />
+            <label>rotation: <br />
                 <select name="rotation" id="rotation">
                     <option value="none">none</option>
                     <option value="ll">ll</option>
@@ -89,7 +88,7 @@
             </label>
         </div>
         <div>
-            <label>设置温度单位: <br />
+            <label>celsius/fahrenheit: <br />
                 <select name="units" id="units">
                     <option value="metric">摄氏度 - °C</option>
                     <option value="imperial">华氏度 - °F</option>
@@ -97,7 +96,7 @@
             </label>
         </div>
         <div>
-            <label>设置夜间模式: <br />
+            <label>night mode: <br />
                 <select name="night" id="night">
                     <option value="off">设置白天模式</option>
                     <option value="auto">自动切换模式</option>
@@ -110,7 +109,7 @@
             <label>设置自定义 APIKey: <br /><input type="text" name="appId" id="appId" /></label>
         </div>
         <div>
-            <input type="submit" value="保存当前设置" />
+            <input type="submit" value="submit" />
         </div>
     </form>
 

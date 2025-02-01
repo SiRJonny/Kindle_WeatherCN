@@ -193,8 +193,8 @@ html.night {
 }
 
 .landscape #temp {
-    font-size: 20px;
-    font-size: 5rem;
+    font-size: 40px;
+    font-size: 10rem;
     font-weight: bolder;
     text-align: center;
 }

@@ -68,7 +68,7 @@ html.night {
 }
 
 #lastUpdate {
-    position: absolute;
+    position: relative;
     top: 20%;
     left: 0%;
     font-size: 100px;

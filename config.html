@@ -33,17 +33,16 @@
     <h1>Kindle WeatherCN 参数设置</h1>
     <form action="index.html">
         <div>
-            <label>输入城市: <br /><input type="text" name="city" id="city" value="Nanjing" /></label>
+            <label>输入城市: <br /><input type="text" name="city" id="city" value="" /></label>
         </div>
         <div>或者 输入GPS坐标:</div>
         <div>
-            <label>Lat (e.g. 50.123): <input type="text" name="lat" id="lat" /></label>
-            <label>Lon (e.g. 14.4): <input type="text" name="lon" id="lon" /></label>
+            <label>Lat (e.g. 50.123): <input type="text" name="lat" id="lat" value="47.5" /></label>
+            <label>Lon (e.g. 14.4): <input type="text" name="lon" id="lon" value="19" /></label>
         </div>
         <div>
             <label>设置UTC时区<br />
                 <select name="utcOffset" id="utcOffset">
-                    <option value="+08:00">+8 h</option>
                     <option value="+01:00">+1 h</option>
                     <option value="-01:00">-1 h</option>
                     <option value="+02:00">+2 h</option>
@@ -82,10 +81,10 @@
         <div>
             <label>设置屏幕方向: <br />
                 <select name="rotation" id="rotation">
-                    <option value="none">竖屏显示</option>
-                    <option value="ll">向左横屏</option>
-                    <option value="lr">向右横屏</option>
-                    <option value="up">竖屏倒置</option>
+                    <option value="none">none</option>
+                    <option value="ll">ll</option>
+                    <option value="lr">lr</option>
+                    <option value="up">up</option>
                 </select>
             </label>
         </div>
